@@ -89,6 +89,7 @@ main {
   border-radius: 10px;
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
   animation: fadeIn 1s ease-in-out;
+  -webkit-animation: fadeIn 1s ease-in-out;
 }
 
 /* Section Styling */
@@ -173,81 +174,6 @@ footer {
   }
 }
 
-/* Candidate Section */
-.candidates {
-  max-width: 900px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-/* Candidate Card Layout */
-.candidate {
-  background: #fff;
-  padding: 20px;
-  margin: 20px auto;
-  border-radius: 10px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  width: 100%;
-  max-width: 800px;
-  text-align: left;
-}
-
-/* Image and Text Side by Side */
-.candidate-content {
-  display: flex;
-  align-items: center;
-  gap: 20px; /* Space between image and text */
-}
-
-.candidate img {
-  width: 100%;
-  max-width: 200px;
-  height: auto;
-  border-radius: 10px;
-  object-fit: cover;
-}
-
-/* Candidate Text */
-.candidate-text {
-  flex: 1; /* Takes remaining space */
-}
-
-.candidate h3 {
-  color: #004080;
-  margin: 10px 0;
-}
-
-.candidate p {
-  font-size: 14px;
-  text-align: justify;
-  line-height: 1.5;
-}
-
-/* Video Styling */
-.candidate video {
-  width: 100%;
-  max-width: 350px;
-  border-radius: 10px;
-  margin-top: 10px;
-  display: block;
-  margin: 10px auto;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  .candidate-content {
-    flex-direction: column; /* Stack image and text on small screens */
-    align-items: center;
-  }
-
-  .candidate img {
-    max-width: 150px;
-  }
-
-  .candidate-text {
-    text-align: center;
-  }
-}
 
 /* Content Wrapper */
 .content-wrapper {
